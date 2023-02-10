@@ -25,8 +25,8 @@
 
          foreach (char o in origin)
          {
-            if (o == 'T' || o == 't') newcode += '\t';
-            else if (o == 'S' || o == 's') newcode += ' ';
+            if (o == 'T' || o == 't' ||o=='\t') newcode += '\t';
+            else if (o == 'S' || o == 's'||o==' ') newcode += ' ';
             else if (o == '\n') newcode += "\n";
             else
             {
