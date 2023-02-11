@@ -10,4 +10,4 @@ Convert alphabetized WhiteSpace source code to WhiteSpace source code.
 
 'S", 's' or space -> space
 
-return-code -> return-code
+line-feed-code -> line-feed-code
